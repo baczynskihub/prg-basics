@@ -1,11 +1,8 @@
-###
-# Program for testing built-in functions
-#
-max_number = max(7,5,6,3,8,2)
-print('Max number of 7,5,6,3,8,2 is', max_number)
-
-min_number = min(4,7,2,3,9,8)
-print('Min number of 4,7,2,3,9,8 is', min_number)
-
-str_length = len("computer science")
-print('The number of characters in "computer science" is', str_length)
+print(f'Largest number: {max(7,5,6,8,2)}')
+print(f'Smallest number: {min(4,7,2,3,9,8)}')
+print(f'Length of the prase: {len('computer science')}')
+print(f'Letter: {input('Enter any letter: ')}')
+print(f'Number representation: {int('20303')}')
+print(f'binary representation: {bin(304)}')
+print(f'hexadecimal representation: {hex(304)}')
+print(f'Integer representation of a sign: {ord('€')}')
